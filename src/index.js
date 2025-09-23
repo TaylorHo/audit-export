@@ -436,13 +436,15 @@ function openReport(finalPath) {
 function processArgument() {
 	const args = process.argv.slice(2);
 
-	args.forEach((arg, index) => {
+	for (let index = 0; index < args.length; index++) {
+		const arg = args[index];
 		if (arg.startsWith("--")) {
-			processParameter(arg, args, index);
+			const consumed = processParameter(arg, args, index);
+			if (consumed) index++; // Skip next argument if it was consumed as a value
 		} else if (!OPTIONS.path) {
 			OPTIONS.path = arg;
 		}
-	});
+	}
 }
 
 /**
@@ -452,10 +454,12 @@ function processArgument() {
  * @param {string} arg - The command line argument to process.
  * @param {string[]} args - The array of command line arguments.
  * @param {number} index - The index of the current argument in the args array.
+ * @returns {boolean} - Whether the next argument was consumed as a value.
  */
 function processParameter(arg, args, index) {
 	let param;
 	let value;
+	let consumedNext = false;
 
 	const argumentName = arg.slice(2);
 
@@ -469,6 +473,7 @@ function processParameter(arg, args, index) {
 	) {
 		param = argumentName;
 		value = args[index + 1];
+		consumedNext = true;
 	} else if (
 		argumentName !== "help" &&
 		argumentName !== "version" &&
@@ -498,6 +503,8 @@ function processParameter(arg, args, index) {
 			console.error(`Error: Unknown parameter '${param}'.`);
 			process.exit(1);
 	}
+
+	return consumedNext;
 }
 
 /**

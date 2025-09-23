@@ -50,13 +50,13 @@
   },
   "dependencies": {
     "ejs": "^3.1.10",
-    "fs-extra": "^11.3.0"
+    "fs-extra": "^11.3.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.1.2",
-    "@playwright/test": "^1.52.0",
-    "commit-and-tag-version": "^12.5.1",
-    "playwright": "^1.52.0"
+    "@biomejs/biome": "^2.2.4",
+    "@playwright/test": "^1.55.1",
+    "commit-and-tag-version": "^12.6.0",
+    "playwright": "^1.55.1"
   },
   "commit-and-tag-version": {
     "types": [
