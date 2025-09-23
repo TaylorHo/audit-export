@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.1.1](https://github.com/hotaydev/audit-export/compare/v5.1.0...v5.1.1) (2025-09-23)
+
+
+### Bug Fixes
+
+* fixed "The provided folder does not exist" error + upgraded packages ([5113cd2](https://github.com/hotaydev/audit-export/commit/5113cd23fba6442dace71ab85d81397590708130))
+* package.json git repository URL format changed ([ce66723](https://github.com/hotaydev/audit-export/commit/ce667239ee37413153d3f8dd3f29b222a063e2a3))
+
 ## [5.1.0](https://github.com/hotaydev/audit-export/compare/v5.0.1...v5.1.0) (2025-07-28)
 
 
