@@ -20,7 +20,7 @@
     "release": "commit-and-tag-version",
     "pre-release": "commit-and-tag-version --prerelease beta"
   },
-  "author": "Hotay <hi@hotay.dev>",
+  "author": "Taylor Hoffmann <taylor@hotay.dev>",
   "contributors": [
     "Taylor Hoffmann <taylor@hotay.dev>",
     "Camilo Bernal <https://github.com/CamiloBernal>",
@@ -36,14 +36,14 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hotaydev/audit-export/issues",
+    "url": "https://github.com/TaylorHo/audit-export/issues",
     "email": "hi@hotay.dev"
   },
-  "homepage": "https://github.com/hotaydev/audit-export#readme",
-  "funding": "https://github.com/sponsors/hotaydev",
+  "homepage": "https://github.com/TaylorHo/audit-export#readme",
+  "funding": "https://github.com/sponsors/TaylorHo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hotaydev/audit-export.git"
+    "url": "git+https://github.com/TaylorHo/audit-export.git"
   },
   "engines": {
     "node": ">=10"

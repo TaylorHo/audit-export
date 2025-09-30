@@ -4,8 +4,8 @@
 
 ## Pre-launch Checklist
 
-- [ ] I read the [Contribution Guide](https://github.com/hotaydev/audit-export/blob/main/.github/CONTRIBUTING.md) and followed the process for submitting PRs.
+- [ ] I read the [Contribution Guide](https://github.com/TaylorHo/audit-export/blob/main/.github/CONTRIBUTING.md) and followed the process for submitting PRs.
 - [ ] I listed at least one issue this PR fixes in the description above.
 - [ ] I have tested this package in at least two versions of Node.js (one lower than the v14 and one higher than the v16)
 
-If you need help, consider asking for advice on [GitHub Discussions](https://github.com/hotaydev/audit-export/discussions) page.
+If you need help, consider asking for advice on [GitHub Discussions](https://github.com/TaylorHo/audit-export/discussions) page.
