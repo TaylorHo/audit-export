@@ -20,9 +20,9 @@
     "release": "commit-and-tag-version",
     "pre-release": "commit-and-tag-version --prerelease beta"
   },
-  "author": "Taylor Hoffmann <taylor@hotay.dev>",
+  "author": "Taylor Hoffmann <taylor@hoffmann.io>",
   "contributors": [
-    "Taylor Hoffmann <taylor@hotay.dev>",
+    "Taylor Hoffmann <taylor@hoffmann.io>",
     "Camilo Bernal <https://github.com/CamiloBernal>",
     "VeekeeFr <https://github.com/VeekeeFr>",
     "Uchenna Chilaka <https://github.com/uchilaka>"
@@ -37,7 +37,7 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TaylorHo/audit-export/issues",
-    "email": "hi@hotay.dev"
+    "email": "taylor@hoffmann.io"
   },
   "homepage": "https://github.com/TaylorHo/audit-export#readme",
   "funding": "https://github.com/sponsors/TaylorHo",
