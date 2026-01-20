@@ -1,7 +1,7 @@
 # Npm Audit Export 🕵️‍♂️
 
 <p align="center">
-  A projetc made by <a href="https://github.com/TaylorHo/">TaylorHo</a>. If you like my work, please <a href="https://github.com/TaylorHo/">follow me on GitHub</a>!
+  A project made by <a href="https://github.com/TaylorHo/">TaylorHo</a>. If you like my work, please <a href="https://github.com/TaylorHo/">follow me on GitHub</a>!
 </p>
 
 <p align="center">
