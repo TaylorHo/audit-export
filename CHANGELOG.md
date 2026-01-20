@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.1.3](https://github.com/TaylorHo/audit-export/compare/v5.1.2...v5.1.3) (2026-01-20)
+
+
+### Bug Fixes
+
+* README grammar error ([328c2f0](https://github.com/TaylorHo/audit-export/commit/328c2f0811ae60fe923c12d4dca90e73c2651673))
+
+
+### Enhancements
+
+* changed author email ([45fc9cf](https://github.com/TaylorHo/audit-export/commit/45fc9cffe7c87aa5f2ff3a1d84bd0407133876ee))
+
 ## [5.1.2](https://github.com/TaylorHo/audit-export/compare/v5.1.1...v5.1.2) (2025-09-30)
 
 
