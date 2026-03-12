@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.1.4](https://github.com/TaylorHo/audit-export/compare/v5.1.3...v5.1.4) (2026-03-12)
+
+
+### Enhancements
+
+* upgraded dependencies ([a3b4759](https://github.com/TaylorHo/audit-export/commit/a3b475956f5bcd43f6e6bc78b5b08cb11231eeb2))
+
 ## [5.1.3](https://github.com/TaylorHo/audit-export/compare/v5.1.2...v5.1.3) (2026-01-20)
 
 
