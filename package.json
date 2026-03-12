@@ -22,7 +22,7 @@
   },
   "author": "Taylor Hoffmann <taylor@hoffmann.io>",
   "contributors": [
-    "Taylor Hoffmann <taylor@hoffmann.io>",
+    "Taylor Hoffmann <https://github.com/TaylorHo>",
     "Camilo Bernal <https://github.com/CamiloBernal>",
     "VeekeeFr <https://github.com/VeekeeFr>",
     "Uchenna Chilaka <https://github.com/uchilaka>"
@@ -50,13 +50,13 @@
   },
   "dependencies": {
     "ejs": "^3.1.10",
-    "fs-extra": "^11.3.2"
+    "fs-extra": "^11.3.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.4",
-    "@playwright/test": "^1.55.1",
-    "commit-and-tag-version": "^12.6.0",
-    "playwright": "^1.55.1"
+    "@biomejs/biome": "^2.4.6",
+    "@playwright/test": "^1.58.2",
+    "commit-and-tag-version": "^12.6.1",
+    "playwright": "^1.58.2"
   },
   "commit-and-tag-version": {
     "types": [
