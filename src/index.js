@@ -425,7 +425,7 @@ function openReport(finalPath) {
 			: process.platform === "win32"
 				? "start"
 				: "xdg-open";
-	child_process.exec(`${start} ${finalPath}`);
+	child_process.exec(`${start} "${finalPath}"`);
 }
 
 /**
