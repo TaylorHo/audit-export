@@ -17,4 +17,4 @@ jobs:
         with:
           node-version: 24
       - run: npm install --ignore-scripts
-      - run: npm publish
+      - run: npm stage publish
