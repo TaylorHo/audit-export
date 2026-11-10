@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [5.1.6](https://github.com/TaylorHo/audit-export/compare/v5.1.5...v5.1.6) (2026-11-10)
+
+
+### Enhancements
+
+* changing npm publish to npm stage publish ([e077eae](https://github.com/TaylorHo/audit-export/commit/e077eae712d1ac7e12d93ed76fb6c31245f85b63))
+* new publish file to match the new npm provenance config ([25a8287](https://github.com/TaylorHo/audit-export/commit/25a8287149f6c076e626a04c780ea94d7e7970e4))
+* upgraded packages solving transitive vulnerabilities + upgraded github workflows actions versions ([0d224f9](https://github.com/TaylorHo/audit-export/commit/0d224f9be05c1c22a8aab94be2b573cc514a5dc2))
+
 ## [5.1.5](https://github.com/TaylorHo/audit-export/compare/v5.1.4...v5.1.5) (2026-04-27)
 
 
